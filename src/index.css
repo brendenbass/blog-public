@@ -1,5 +1,11 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
   background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .addButton {
@@ -11,9 +17,12 @@
 
 .header-container {
   display: flex;
-  margin: .25rem .2rem;
+  margin: 1.2rem .2rem;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
 }
 
 .heartButton {
@@ -26,11 +35,20 @@
 .ig-logo {
   height: auto;
   width: 40%;
+  margin-top: -1.7rem;
+  margin-bottom: -2.2rem;
+}
+
+.postHeader {
+  display: flex;
+  height: 45px;
+  margin: .25rem .8rem;
+  justify-content: flex-start;
 }
 
 .profile-img {
   height: auto;
-  width: 10%;
+  max-width: 50%;
 }
 
 .sendButton {
@@ -38,6 +56,14 @@
   margin: .8rem;
   height: auto;
   width: 2rem;
+}
+
+.userName {
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  align-self: center;
+  margin-left: 1rem;
 }
 
 .threeButtonGroup {

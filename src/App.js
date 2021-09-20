@@ -5,12 +5,8 @@ import Posts from './Components/Posts';
 function App() {
   return (
     <div>
-      <div className="container">
           <Header/>
-      </div>
-      <div className="container">
           <Posts/>
-      </div>
     </div>
   );
 }
