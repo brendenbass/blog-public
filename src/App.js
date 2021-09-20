@@ -1,12 +1,12 @@
 import './index.css';
 import Header from './Components/Header'
-import Posts from './Components/Posts';
+import Post from './Components/Post';
 
 function App() {
   return (
     <div>
           <Header/>
-          <Posts/>
+          <Post/>
     </div>
   );
 }

@@ -1,21 +1,26 @@
 import PostHeader from "./PostHeader"
 import PostImage from './img/picofme.jpg'
+import PostInteract from "./PostInteract"
+import PostDescription from "./PostDescription"
 
-const Posts = () => {
+const Post = () => {
     return (
         <div>
             {/* Post Header */}
             <PostHeader />
 
             {/* Post Image */}
-            <PostImage />
+            <img src={PostImage} alt="post" className="postImage"/>
             
             {/* Interactive Elements */}
-            {/* Likes */}
+            <PostInteract />
+
             {/* Author and Description */}
+            <PostDescription />
+
             {/* Time Posted */}
         </div>
     )
 }
 
-export default Posts
+export default Post
