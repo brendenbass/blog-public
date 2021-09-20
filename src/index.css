@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.addButton {
+  color: white;
+  height: auto;
+  margin: .8rem;
+  width: 2rem;
+}
+
+.container {
+  display: flex;
+  margin: .25rem .2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heartButton {
+  color: white;
+  height: auto;
+  margin: .8rem;
+  width: 2rem;
+}
+
+.img-fluid {
+  height: auto;
+  width: 40%;
+}
+
+.sendButton {
+  color: white;
+  margin: .8rem;
+  height: auto;
+  width: 2rem;
+}
+
+.threeButtonGroup {
+  width: auto;
+  display: flex;
 }
