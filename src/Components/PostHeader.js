@@ -1,10 +1,12 @@
+import UserIMG from './img/Brenden Bass.PNG'
+
 const PostHeader = () => {
     return (
         <div className="postHeader">
-            {/* rounded img */}
+            <img src={UserIMG} alt="user image" className="profile-img"/>
             {/* author name */}
         </div>
     )
 }
 
-export default Post-Header
+export default PostHeader

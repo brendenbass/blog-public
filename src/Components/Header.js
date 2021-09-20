@@ -6,10 +6,10 @@ import { FiSend } from 'react-icons/fi'
 const Header = () => {
 return (
 <header>
-    <div className="container">
+    <div className="header-container">
 
         {/* logo */}
-        <img src={Logo} className="img-fluid" alt="Instagram Logo"/>
+        <img src={Logo} className="ig-logo" alt="Instagram Logo"/>
 
         {/* three buttons */}
         <div className="threeButtonGroup">
