@@ -52,11 +52,12 @@ html {
 }
 
 .postDescription {
+  display: flex;
+  flex-wrap: wrap;
   font-weight: 400;
   font-size: 1rem;
   color: white;
   align-self: flex-start;
-  margin-left: 1rem;
 }
 .postDescriptionDiv {
   display: flex;
@@ -85,6 +86,7 @@ html {
   color: white;
   align-self: center;
   margin-left: 1rem;
+  display: flex;
 }
 
 .threeButtonGroup {

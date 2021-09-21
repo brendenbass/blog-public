@@ -1,4 +1,5 @@
 import UserIMG from './img/Brenden Bass.PNG'
+import Username from './Username'
 
 const PostHeader = () => {
     return (
@@ -7,7 +8,7 @@ const PostHeader = () => {
                 <img src={UserIMG} alt="user" className="profile-img"/>
             
                 {/* Author's username */}
-                <h2 className="userName">brendenbass</h2>
+                <Username/>
         </div>
     )
 }
