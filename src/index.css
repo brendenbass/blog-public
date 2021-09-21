@@ -89,6 +89,7 @@ html {
 
 .threeButtonGroup {
   width: auto;
+  height: 100%;
   display: flex;
   margin-right: .3rem;
 }
