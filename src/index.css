@@ -31,9 +31,6 @@ html {
   margin: 1.2rem .2rem;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
-  position: sticky;
-  top: 0;
 }
 
 .heartButton {
