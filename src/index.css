@@ -59,6 +59,7 @@ html {
   color: white;
   align-self: flex-start;
 }
+
 .postDescriptionDiv {
   display: flex;
 }
@@ -87,6 +88,7 @@ html {
   align-self: center;
   margin-left: 1rem;
   display: flex;
+  display: inline-block;
 }
 
 .threeButtonGroup {
