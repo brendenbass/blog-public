@@ -2,6 +2,7 @@ import PostHeader from "./PostHeader"
 import PostImage from './img/picofme.jpg'
 import PostInteract from "./PostInteract"
 import PostDescription from "./PostDescription"
+import PostTime from "./PostTime"
 
 const Post = () => {
     return (
@@ -19,6 +20,7 @@ const Post = () => {
             <PostDescription />
 
             {/* Time Posted */}
+            <PostTime/>
         </div>
     )
 }

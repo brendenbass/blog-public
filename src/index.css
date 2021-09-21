@@ -12,6 +12,12 @@ html {
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
 
 .addButton {
   color: white;
@@ -67,6 +73,13 @@ html {
 .postImage {
   max-width: 100%;
   height: auto;
+}
+
+.postTime {
+  color: rgb(169, 169, 169);
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: .75rem;
 }
 
 .profile-img {
