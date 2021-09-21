@@ -4,7 +4,7 @@ const PostDescription = () => {
     return (
         <div className="postDescriptionDiv">
             <div className="postDescription">
-                <p><Username/> Hello, my name is Brenden Bass, and welcome to my Ted Talk.</p>
+                <p><Username/> Hello, my name is Brenden Bass, and I'm a full-stack web developer located in Central Florida.</p>
             </div>
         </div>
     )
