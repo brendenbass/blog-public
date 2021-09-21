@@ -4,7 +4,7 @@ const PostDescription = () => {
     return (
         <div className="postDescriptionDiv">
             <div className="postDescription">
-                <p className="postText"> <Username/> Hello, my name is Brenden Bass, and welcome to my Ted Talk.</p>
+                <p><Username/> Hello, my name is Brenden Bass, and welcome to my Ted Talk.</p>
             </div>
         </div>
     )
