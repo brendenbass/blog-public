@@ -9,13 +9,9 @@ function App() {
   return (
     <EasybaseProvider ebconfig={ebconfig}>
       <div className="header"><Header/></div>
-      <Home/>
-          {/* <div>
-          <Post/>
-          <Post/>
-          <Post/>
-          <Home/>
-          </div> */}
+      <div className="mainContainer">
+      <Home />
+      </div>
     </EasybaseProvider>
   );
 }

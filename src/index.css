@@ -29,6 +29,7 @@ html {
 .header-container {
   display: flex;
   margin: 1.2rem .2rem;
+  max-height: 40px;
   justify-content: space-between;
   align-items: center;
 }
@@ -45,6 +46,12 @@ html {
   width: 40%;
   margin-top: -1.7rem;
   margin-bottom: -2.2rem;
+}
+
+.mainContainer {
+  max-width: 450px;
+  margin: auto;
+  align-self: center;
 }
 
 .postHeader {
