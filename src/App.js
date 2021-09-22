@@ -1,6 +1,5 @@
 import './index.css';
-import Header from './Components/Header'
-import Post from './Components/Post';
+import Header from './Components/Header';
 import { EasybaseProvider } from 'easybase-react';
 import ebconfig from './ebconfig';
 import Home from './Components/Home';

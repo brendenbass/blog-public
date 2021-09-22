@@ -20,7 +20,7 @@ const Post = ({ author, image, description, created }) => {
             <PostDescription description={description} author={author}/>
 
             {/* Time Posted */}
-            <PostTime/>
+            <PostTime created={created}/>
         </div>
     )
 }
