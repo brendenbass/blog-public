@@ -107,3 +107,7 @@ html {
   display: flex;
   margin-right: .3rem;
 }
+
+.textWhite {
+  color: white;
+}

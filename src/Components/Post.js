@@ -4,20 +4,20 @@ import PostInteract from "./PostInteract"
 import PostDescription from "./PostDescription"
 import PostTime from "./PostTime"
 
-const Post = () => {
+const Post = ({ author, image, description, created }) => {
     return (
         <div>
             {/* Post Header */}
-            <PostHeader />
+            <PostHeader author={author}/>
 
             {/* Post Image */}
-            <img src={PostImage} alt="post" className="postImage"/>
+            <img src={image} alt="post" className="postImage"/>
             
             {/* Interactive Elements */}
             <PostInteract />
 
             {/* Author and Description */}
-            <PostDescription />
+            <PostDescription description={description} author={author}/>
 
             {/* Time Posted */}
             <PostTime/>

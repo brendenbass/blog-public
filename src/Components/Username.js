@@ -1,6 +1,6 @@
-export const Username = () => {
+export const Username = ({ author }) => {
     return (
-        <p className="userName">brendenbass</p>
+        <p className="userName">{author}</p>
     )
 }
 
