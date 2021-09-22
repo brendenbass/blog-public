@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+.addButton {
+  color: white;
+  height: auto;
+  margin: .8rem;
+  width: 2rem;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -19,17 +26,10 @@ html {
   background-color: black;
 }
 
-.addButton {
-  color: white;
-  height: auto;
-  margin: .8rem;
-  width: 2rem;
-}
-
 .header-container {
   display: flex;
-  margin: 1.2rem .2rem;
-  max-height: 40px;
+  margin: 0rem .2rem;
+  max-height: 60px;
   justify-content: space-between;
   align-items: center;
 }
@@ -42,8 +42,8 @@ html {
 }
 
 .ig-logo {
-  height: auto;
-  width: 40%;
+  max-height: 100px;
+  width: auto;
   margin-top: -1.7rem;
   margin-bottom: -2.2rem;
 }
