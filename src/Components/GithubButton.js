@@ -2,7 +2,7 @@ import { VscGithub } from 'react-icons/vsc';
 
 const GithubButton = () => {
 return (
-        <a href="https://brendenbass.com" target="_blank">
+        <a href="https://github.com/brendenbass/blog-public" target="_blank">
             <VscGithub className="sendButton"/>
         </a>
     )
