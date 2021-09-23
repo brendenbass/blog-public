@@ -1,7 +1,8 @@
 import Logo from './img/bb-initial-logo.svg';
 import { MdAddBox } from 'react-icons/md';
 import { IoMdHeartEmpty } from 'react-icons/io';
-import { FiSend } from 'react-icons/fi';
+// import { FiSend } from 'react-icons/fi';
+import MobileShare from './MobileShare';
 
 const Header = () => {
 
@@ -16,7 +17,8 @@ return (
         <div className="threeButtonGroup">
             <MdAddBox className="addButton"/>
             <IoMdHeartEmpty className="heartButton"/>
-            <FiSend className="sendButton"/>
+            {/* <FiSend className="sendButton"/> */}
+            <MobileShare/>
         </div>
     </div>
 </header>

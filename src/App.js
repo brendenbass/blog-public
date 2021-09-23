@@ -5,6 +5,7 @@ import ebconfig from './ebconfig';
 import Home from './Components/Home';
 
 function App() {
+
   return (
     <EasybaseProvider ebconfig={ebconfig}>
       <div className="header"><Header/></div>
