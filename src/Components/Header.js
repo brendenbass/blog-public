@@ -1,9 +1,10 @@
-import Logo from './img/ig-name-logo.svg';
+import Logo from './img/bb-initial-logo.svg';
 import { MdAddBox } from 'react-icons/md';
 import { IoMdHeartEmpty } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
 
 const Header = () => {
+
 return (
 <header>
     <div className="header-container">
