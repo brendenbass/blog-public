@@ -1,8 +1,9 @@
 import Logo from './img/bb-initial-logo.svg';
 import { MdAddBox } from 'react-icons/md';
 import { IoMdHeartEmpty } from 'react-icons/io';
-// import { FiSend } from 'react-icons/fi';
 import MobileShare from './MobileShare';
+import BackButton from './BackButton';
+import GithubButton from './GithubButton';
 
 const Header = () => {
 
@@ -15,9 +16,8 @@ return (
 
         {/* three buttons */}
         <div className="threeButtonGroup">
-            <MdAddBox className="addButton"/>
-            <IoMdHeartEmpty className="heartButton"/>
-            {/* <FiSend className="sendButton"/> */}
+            <BackButton/>
+            <GithubButton/>
             <MobileShare/>
         </div>
     </div>
